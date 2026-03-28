@@ -6,9 +6,10 @@
   "architecture": {
     "64bit": {
       "url": "https://github.com/zseven-w/openpencil/releases/download/v0.6.0/OpenPencil-0.6.0-x64-win.exe",
-      "hash": "PLACEHOLDER"
+      "hash": "ff81007b664637d68e81dfa7425df7dc37cdd1c4e1a6aa476ecfc80ed869798c"
     }
   },
+  "pre_install": "Rename-Item \"$dir\OpenPencil-$version-x64-win.exe\" 'OpenPencil.exe'",
   "bin": "OpenPencil.exe",
   "shortcuts": [["OpenPencil.exe", "OpenPencil"]],
   "checkver": {
@@ -19,6 +20,7 @@
       "64bit": {
         "url": "https://github.com/zseven-w/openpencil/releases/download/v$version/OpenPencil-$version-x64-win.exe"
       }
-    }
+    },
+    "pre_install": "Rename-Item \"$dir\OpenPencil-$version-x64-win.exe\" 'OpenPencil.exe'"
   }
 }
