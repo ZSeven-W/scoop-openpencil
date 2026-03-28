@@ -1,0 +1,24 @@
+{
+  "version": "0.6.0",
+  "description": "Open-source AI-native vector design tool",
+  "homepage": "https://github.com/zseven-w/openpencil",
+  "license": "MIT",
+  "architecture": {
+    "64bit": {
+      "url": "https://github.com/zseven-w/openpencil/releases/download/v0.6.0/OpenPencil-0.6.0-x64-win.exe",
+      "hash": "PLACEHOLDER"
+    }
+  },
+  "bin": "OpenPencil.exe",
+  "shortcuts": [["OpenPencil.exe", "OpenPencil"]],
+  "checkver": {
+    "github": "https://github.com/zseven-w/openpencil"
+  },
+  "autoupdate": {
+    "architecture": {
+      "64bit": {
+        "url": "https://github.com/zseven-w/openpencil/releases/download/v$version/OpenPencil-$version-x64-win.exe"
+      }
+    }
+  }
+}
