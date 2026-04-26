@@ -9,7 +9,7 @@
       "hash": "f6ac5a848c697dee55ef14493397e66e4a3f3ea1b4c2fe94ca034373efb48740"
     }
   },
-  "pre_install": "Rename-Item \"$dir\OpenPencil-$version-x64-win.exe\" 'OpenPencil.exe'",
+  "pre_install": "Rename-Item \"$dir\\OpenPencil-$version-x64-win.exe\" 'OpenPencil.exe'",
   "bin": "OpenPencil.exe",
   "shortcuts": [["OpenPencil.exe", "OpenPencil"]],
   "checkver": {
@@ -21,6 +21,6 @@
         "url": "https://github.com/zseven-w/openpencil/releases/download/v$version/OpenPencil-$version-x64-win.exe"
       }
     },
-    "pre_install": "Rename-Item \"$dir\OpenPencil-$version-x64-win.exe\" 'OpenPencil.exe'"
+    "pre_install": "Rename-Item \"$dir\\OpenPencil-$version-x64-win.exe\" 'OpenPencil.exe'"
   }
 }
