@@ -6,11 +6,11 @@
   "architecture": {
     "64bit": {
       "url": "https://github.com/zseven-w/openpencil/releases/download/v0.8.6/openpencil-desktop-windows-x86_64.zip",
-      "hash": "4843583ee07124f03083c0345bc6e0f9b1e43c534d3e883c88146480fad18af5"
+      "hash": "b38cc78eec00776b2f2faea235bcbcb83edff702416b4359c7d48fabb1da6ae0"
     },
     "arm64": {
       "url": "https://github.com/zseven-w/openpencil/releases/download/v0.8.6/openpencil-desktop-windows-aarch64.zip",
-      "hash": "179dfd615b90e9b0c7d82543eebc853c6f924086d5fa586a2457b083ee491caf"
+      "hash": "f0c8fca3482720e69f9d1e3cb3055199a43ec297b527cf25116790cfbdc2bbe8"
     }
   },
   "bin": "openpencil-desktop.exe",
